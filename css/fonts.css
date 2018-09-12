@@ -1,0 +1,96 @@
+@font-face{
+	src:url("../fonts/Poppinsbold.ttf") format("ttf"), url("../fonts/Poppinsbold.woff") format("woff"), url("../fonts/Poppinsbold.woff2") format("woff2");
+	font-family: "Poppins-bold";
+}
+@font-face{
+	src:url("../fonts/Poppins-Regular.ttf") format("ttf"), url("../fonts/Poppinsregular.woff") format("woff"), url("../fonts/Poppinsregular.woff2") format("woff2");
+	font-family: "Poppins-Regular";
+}
+@font-face{
+	src:url("../fonts/Poppins-SemiBold.ttf") format("ttf");
+	font-family: "Poppins-SemiBold";
+}
+@font-face{
+	src:url("../fonts/opensans.ttf") format("ttf"), url("../fonts/opensans.woff") format("woff"), url("../fonts/opensans.woff2") format("woff2");
+	font-family: "opensans";
+}
+@font-face{
+	src:url("../fonts/OpenSans-Bold_0.ttf") format("ttf");
+	font-family: "OpenSans-Bold_0";
+}
+@font-face{
+	src:url("../fonts/OpenSans-BoldItalic.ttf") format("ttf");
+	font-family: "OpenSans-BoldItalic";
+}
+@font-face{
+	src:url("../fonts/OpenSans-ExtraBold.ttf") format("ttf");
+	font-family: "OpenSans-ExtraBold";
+}
+@font-face{
+	src:url("../fonts/OpenSans-ExtraBoldItalic.ttf") format("ttf");
+	font-family: "OpenSans-ExtraBoldItalic";
+}
+@font-face{
+	src:url("../fonts/OpenSans-Italic.ttf") format("ttf");
+	font-family: "OpenSans-Italic";
+}
+@font-face{
+	src:url("../fonts/OpenSans-Italic.ttf") format("ttf");
+	font-family: "OpenSans-Italic";
+}
+@font-face{
+	src:url("../fonts/OpenSans-Light.ttf") format("ttf");
+	font-family: "OpenSans-Light";
+}
+@font-face{
+	src:url("../fonts/OpenSans-LightItalic.ttf") format("ttf");
+	font-family: "OpenSans-LightItalic";
+}
+@font-face{
+	src:url("../fonts/OpenSans-Regular_0.ttf") format("ttf");
+	font-family: "OpenSans-Regular_0";
+}
+@font-face{
+	src:url("../fonts/OpenSans-Semibold.ttf") format("ttf");
+	font-family: "OpenSans-Semibold";
+}
+@font-face{
+	src:url("../fonts/Ubuntu-Bold.ttf") format("ttf");
+	font-family: "Ubuntu-Bold";
+}
+@font-face{
+	src:url("../fonts/ubuntu.ttf") format("ttf"), url("../fonts/ubuntu.woff") format("woff"), url("../fonts/ubuntu.woff2") format("woff2");
+	font-family: "ubuntu";
+}
+@font-face{
+	src:url("../fonts/Ubuntu-BoldItalic.ttf") format("ttf");
+	font-family: "Ubuntu-BoldItalic";
+}
+@font-face{
+	src:url("../fonts/Ubuntu-C.ttf") format("ttf");
+	font-family: "Ubuntu-C";
+}
+@font-face{
+	src:url("../fonts/Ubuntu-Light.ttf") format("ttf"), url("../fonts/ubuntulight.woff") format("woff"), url("../fonts/ubuntulight.woff2") format("woff2");
+	font-family: "Ubuntu-Light";
+}
+@font-face{
+	src:url("../fonts/Ubuntu-LightItalic.ttf") format("ttf");
+	font-family: "Ubuntu-LightItalic";
+}
+@font-face{
+	src:url("../fonts/Ubuntu-Medium.ttf") format("ttf");
+	font-family: "Ubuntu-Medium";
+}
+@font-face{
+	src:url("../fonts/Ubuntu-MI.ttf") format("ttf");
+	font-family: "Ubuntu-MI";
+}
+@font-face{
+	src:url("../fonts/Ubuntu-Regular.ttf") format("ttf");
+	font-family: "Ubuntu-Regular";
+}
+@font-face{
+	src:url("../fonts/Ubuntu-RI.ttf") format("ttf");
+	font-family: "Ubuntu-RI";
+}

@@ -1,0 +1,382 @@
+*{
+	margin:0;
+	padding: 0;
+}
+*:before, *:after {
+  box-sizing: border-box;
+}
+body{
+	font-size: 14px;
+	font-family: "ubuntu", Arial, Helvetica, sans-serif;
+	background-color: #fff;
+}
+p{
+	margin:0;
+}
+.clearfix{
+	clear: both;
+}
+img{
+	max-width: 100%;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+	/*-----header------*/
+header{
+ 	background: url(../img/bg_bonuses.jpg) top center no-repeat;
+  	background-size:cover;
+  	/*background-attachment:fixed;*/
+  	position:relative;
+  	overflow:hidden;
+  	display:flex;
+  	flex-wrap: wrap;
+  	justify-content: center;
+  	align-items: flex-start;
+  	align-content: flex-start;	
+  	height:603px;
+  	width: 100%;
+}
+nav{
+	width: 100%;
+	display: inline-block;
+	padding-top: 31px;
+	padding-bottom:60px;
+}
+.navbar-brand{
+	height: auto;
+	padding:0;
+}
+.btn{
+	float: right;
+	font-family: "ubuntu";
+}
+button:focus{
+	outline: none;
+}
+.btn:active{
+	box-shadow: none;
+}
+.btn button{
+	display: inline-block;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 20px;
+	border-radius:20px;
+	width: 136px;
+	padding: 10px;
+}
+.btn .login{
+	border: 1px solid #ffffff;
+	background-color: transparent;
+	margin-right: 11px;
+}
+.btn .singup{
+	background-color: #269aef;
+	border: none;
+}
+.content{
+	text-align: center;
+	color: #fff;
+	font-weight: 700;
+	line-height: 70px;
+	padding-top: 53px;
+	padding-bottom: 100px;
+	
+}
+.content h1{
+	font-size: 62px;
+	font-family: "Poppins-bold";
+}
+.content p{
+	font-size: 49px;
+	font-weight: 400;
+	font-family: "Poppins-Regular";
+}
+	/*-----end-header------*/
+
+	/*-----main------*/
+
+.main{
+	background: url(../img/blog_bg_right.png) top center no-repeat;
+  	background-size:cover;
+  	position:relative;
+  	display:flex;
+  	flex-wrap: wrap;
+  	justify-content: center;
+  	align-items: flex-start;
+  	align-content: flex-start;
+  	text-align: center;
+  	width: 100%;
+  	font-family: "ubuntu";
+}
+	/*-----first section------*/
+figure{
+	display: inline-block;
+	width: 100%;
+}
+.img-header {
+    margin-top: -150px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.howItwork{
+	margin: 99px 0 126px;
+	display: inline-block;
+	width: 80%;
+}
+.howItwork h2{
+	color: #2a9aee;
+	font-size: 49px;
+	font-family: "Ubuntu-Light";
+	font-weight: 300;
+	line-height: 52px;
+}
+.howItwork span{
+	font-weight: 700;
+}
+.howItwork p{
+	font-size: 24px;
+	color: #000000;
+	margin-top: 34px;
+}
+	/*-----end-first section------*/
+.wrap{
+	width: 100%;
+	margin: 0 auto;
+	display: inline-block;
+}
+.o-layout{
+	padding-bottom: 118px;
+}
+.blog-block-left{
+	display: inline-block;
+	text-align: left;
+}
+.blog-block-right{
+	display: inline-block;
+	float: right;
+	text-align: left;
+}
+	/*-----ul------*/
+
+.children { 
+    position: relative;
+    text-align: left;
+}
+.blog-block-left .comment-content {
+    overflow: hidden;
+}
+.blog-block-right .comment-content {
+    padding-left: 1rem;
+    overflow: hidden;
+}
+.bonuses-text{
+	font-size: 34px;
+	color: #2a9aee;
+	font-weight: 700;
+	line-height: 38px;
+	margin: 0 auto;
+	font-family: "ubuntu";
+}
+.comment{
+	margin-top:63px;
+}
+.comment-avatar  {
+    margin-right: 36px;
+    float: left;
+}
+.blog-block-left .comment-content p:first-child{
+	font-size: 28px;
+	font-weight: 700;
+	font-family: "opensans";
+	text-transform: uppercase;
+	color: #000000;
+}
+.blog-block-left .comment-content p, .blog-block-right .comment-content p:last-child{
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 32px;
+	font-family: "Poppins-Regular";
+	color: #000000;
+}
+.blog-block-right .comment{
+	margin-top: 0;
+	margin-bottom: 62px;
+}
+.blog-block-right .comment-content p:first-child{
+	padding-bottom: 19px;
+
+}
+.blog-block-right .btn{
+	float: none;
+}
+	/*-----end-ul-----*/
+
+	/*-----end-main------*/
+	/*-----footer--------*/
+
+footer{
+  	background-color: #0f1733;
+  	display:flex;
+  	flex-wrap: wrap;
+  	justify-content: center;
+  	align-items: flex-start;
+  	align-content: flex-start;
+  	text-align: center;
+  	width: 100%;
+  	color: #fff;
+  	font-size: 17px;
+  	line-height: 26px;
+  	padding: 76px 72px 65px;
+}
+.colum{
+	display: flex;
+  	justify-content: center;
+	padding-bottom: 65px;
+	vertical-align: middle;
+}
+.colum:nth-child(2){
+	margin-left: 40px;
+}
+
+.wrap-foo .txt-foo{
+	color: #2d9eef;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 20px;
+	display: inline-block;
+	margin-bottom: 35px;
+	font-family: "Poppins-bold";
+}
+.soc{
+	margin-bottom: 31px;
+}
+.soc a{
+	display: block;
+	margin: 0 4px 0 0;
+}
+.soc .g-plus{
+	width: 35px;
+	height: 35px;
+	background: url(../img/layer-141.png) center no-repeat;
+	display: inline-block;
+	background-size: cover;
+}
+.soc .fb{
+	width: 35px;
+	height: 35px;
+	background: url(../img/layer-138.png) center no-repeat;
+	display: inline-block;
+	background-size: cover;
+}
+.soc .tw{
+	width: 35px;
+	height: 35px;
+	background: url(../img/layer-139.png) center no-repeat;
+	display: inline-block;
+	background-size: cover;
+	margin-right:0;
+}
+.soc .inst{
+	width: 35px;
+	height: 35px;
+	background: url(../img/layer-140.png) center no-repeat;
+	display: inline-block;
+	background-size: cover;
+}
+.wrap-foo{
+	display: inline-block;
+	text-align: left;
+	font-family: "ubuntu";
+}
+.email p{
+	display: inline-block;
+}
+.up-foo{
+	text-transform: uppercase;
+	padding-bottom: 14px;
+}
+.block-logo{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: right!important;
+}
+
+.footer-list a{
+	color: #fff;
+}
+@media screen and (max-width:960px) {
+	.colum:nth-child(2) {
+	    margin-left: 0px;
+	}
+}
+@media screen and (max-width:854px) {
+	.blog-block-right{
+		padding-top: 30px;
+	}
+	
+}
+@media screen and (max-width:768px) {
+	.comment-avatar img{
+		width: 50%;
+	}
+	.comment-avatar{
+		margin-right: 0;
+	}
+	.colum{
+		justify-content:left;
+	}
+	
+}
+@media screen and (max-width:668px) {
+	.content h1 {
+	    font-size: 50px;
+	}
+	.content p{
+		font-size: 30px;
+	}
+	.blog-block-left, .blog-block-right{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	header{
+		height: auto;
+	}
+	.content{
+		padding-top: 0;
+	}
+	.howItwork{
+		width: 100%;
+		margin: 50px 0 50px;
+	}
+}
+@media screen and (max-width:480px) {
+	.btn{
+		float: none;
+	}
+	nav{
+		text-align: center;
+	}
+	.soc .g-plus, .soc .fb, .soc .inst, .soc .tw {
+	    width: 25px;
+	    height: 25px;
+	}
+	footer{
+		font-size: 14px;
+	}
+}
+	
+	
+	
+}
+
+
+
